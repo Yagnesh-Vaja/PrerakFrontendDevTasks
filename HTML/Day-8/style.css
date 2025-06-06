@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  border: 4px double black;
+}
+
+.cards {
+  padding: 1rem;
+  min-width: 300px;
+  background-color: red;
+}
+
+.client-card {
+  border: 1px solid black;
+}
