@@ -16,11 +16,50 @@ body {
 }
 
 .cards {
+  width: 22.5rem;
+  height: 7.5rem;
   padding: 1rem;
-  min-width: 300px;
-  background-color: red;
 }
 
 .client-card {
+  width: 100%;
+  height: 100%;
   border: 1px solid black;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 4.5rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+}
+
+.client-details {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.left {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.addBtn {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBtn svg {
+  width: 100%;
+  height: 100%;
 }
