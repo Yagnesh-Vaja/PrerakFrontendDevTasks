@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.btns {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  background-color: burlywood;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.btns:hover {
+  background-color: chartreuse;
+}
+
+.title {
+  color: white;
+}
+.selected {
+  background-color: red;
+}
